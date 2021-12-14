@@ -10,7 +10,8 @@ CREATE TABLE IF NOT EXISTS `help_post_bar` (
     `contact_people` TEXT COMMENT '联系人',
     `contact_phone_number` TEXT COMMENT '联系方式',
     `release_time` VARCHAR(30) NOT NULL COMMENT '提交时间',
-    `urgency_degree` VARCHAR(30) NOT NULL COMMENT '紧急程度'
+    `urgency_degree` VARCHAR(30) NOT NULL COMMENT '紧急程度',
+    `is_finish` UNSIGNED TINY INTEGER NOT NULL COMMENT '是否解决'
     )ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='求助帖子';
 INSERT INTO `help_post_bar` (`help_user_name`,`help_user_uuid`,`help_location`,`trapped_people_number`,`trapped_time`,`trapped_description`,`need_help_kind`
 ,`contact_people`,`contact_phone_number`,`release_time`,`urgency_degree`) VALUES ('管理员','321897389519','郑州','1','2021/7/10 12:30','测试使用','测试使用','管理员','1234567890'
