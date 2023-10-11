@@ -2,15 +2,35 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.potech.helpform">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取网络状态，根据网络状态切换进行数据请求网络转换 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 读取外置存储。如果开发者使用了so动态加载功能并且把so文件放在了外置存储区域，则需要申请该权限，否则不需要 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 写外置存储。如果开发者使用了离线地图，并且数据写在外置存储区域，则需要申请该权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Helpform">
+        android:theme="@style/Theme.Helpform"
+        android:usesCleartextTraffic="true">
+        <service android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"/>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="rnFTprILETh11fiXCwE5bDnt2ckBZEuB" />
         <activity
-            android:name="com.potech.helpform.activity.StartPageActivity"
+            android:name=".activity.StartPageActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
@@ -19,9 +39,47 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.potech.helpform.activity.MainActivity">
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="登录"
+            android:exported="false"></activity>
+        <activity
+            android:name=".activity.HelpInfoActivity"
+            android:label="求助提示"
+            android:exported="false"></activity>
+        <activity
+            android:name=".activity.HelpInfoBarActivity"
+            android:label="求助信息"
+            android:exported="false">
+
         </activity>
-        <activity android:name=".activity.LoginActivity">
+
+        <activity android:name=".activity.MyHelpPostBarActivity"
+            android:label="我的求助信息"
+            android:exported="false">
+
+        </activity>
+        <activity android:name=".activity.SendHelperPostBarActivity"
+            android:label="发送求助"
+            android:exported="false">
+
+        </activity>
+        <activity android:name=".activity.UserActivity"
+            android:label="选择"
+            android:exported="false">
+
+        </activity>
+        <activity android:name=".activity.RegisterActivity"
+            android:label="注册"
+            android:exported="false">
+
+        </activity>
+        <activity android:name=".activity.ModifyHelperPostBarActivity"
+            android:label="修改求助信息"
+            android:exported="false">
 
         </activity>
     </application>

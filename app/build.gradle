@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.polaris.helpform"
+        applicationId "com.potech.helpform"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -39,6 +39,8 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation files('libs\\BaiduLBS_Android.jar')
+    implementation files('libs\\mysql-connector-java-5.1.30-bin.jar')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

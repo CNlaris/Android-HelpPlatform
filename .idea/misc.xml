@@ -8,12 +8,29 @@
         <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2734375" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2734375" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2734375" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/mm_submenu.xml" value="0.2734375" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/preference_first_item.xml" value="0.2734375" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/preference_item.xml" value="0.2734375" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/preference_last_item.xml" value="0.2734375" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/drawable/preference_single_item.xml" value="0.2734375" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_help_info.xml" value="0.15327730601086959" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_help_info_bar.xml" value="0.26621847886098404" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_login.xml" value="0.4033613316075515" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_modify_helper_post_bar.xml" value="0.128125" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_my_help_post_bar.xml" value="0.20168066580377575" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_register.xml" value="0.25729166666666664" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_send_help_post_bar.xml" value="0.26621847886098404" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_send_post_bar.xml" value="0.20168066580377575" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_start_page.xml" value="0.25729166666666664" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/activity_user.xml" value="0.20168066580377575" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/fragment_dashboard.xml" value="0.13177083333333334" />
-        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/fragment_home.xml" value="0.25729166666666664" />
-        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/fragment_notifications.xml" value="0.13177083333333334" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/fragment_home.xml" value="0.27680525164113784" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/fragment_notifications.xml" value="0.20168066580377575" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/list_view_helper_post_bar.xml" value="0.4033613316075515" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/process_hud.xml" value="0.25729166666666664" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/test.xml" value="0.1" />
+        <entry key="..\:/Android Projects/helpform/app/src/main/res/layout/test1.xml" value="0.25729166666666664" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/menu/bottom_nav_menu.xml" value="0.13177083333333334" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2734375" />
         <entry key="..\:/Android Projects/helpform/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2734375" />

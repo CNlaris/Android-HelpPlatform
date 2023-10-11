@@ -19,6 +19,7 @@ public class StartPageActivity extends AppCompatActivity {
         getSupportActionBar().hide();//隐藏标题栏
         setContentView(R.layout.activity_start_page);
         imageView = findViewById(R.id.start_page_imageView);
+        imageView.setBackground(getResources().getDrawable(R.mipmap.start_page));
         Thread myThread=new Thread(){//创建子线程
             @Override
             public void run() {
